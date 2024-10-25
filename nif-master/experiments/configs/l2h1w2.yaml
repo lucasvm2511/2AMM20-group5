@@ -1,0 +1,25 @@
+model:
+  hidden_sizes: [120, 40, 28, 16]
+  encoder_params:
+    use_cache: False
+  modulator_params:
+    hidden_sizes: [16, 8]
+    encoder_params:
+      use_cache: False
+fitting:
+  tuning:
+    loss:
+      components:
+        - type: l1
+          weight: 0
+        - type: mse
+          weight: 1
+  restart:
+    amount:
+      start: 0.175
+      end: 0.65
+      smoothing: 0.05
+    range:
+      start: 0.9
+      end: 0.2
+      smoothing: 0.2

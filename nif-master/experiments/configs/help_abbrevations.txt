@@ -1,0 +1,8 @@
+l1 = the first loss configuration: L1 loss.
+l2 = the second loss configuration: MSE loss.
+
+h1 = the first hidden_sizes configuration: genesis=[120, 40, 28, 16], use_cache=False; modulator=[16, 8], use_cache=False
+h2 = the second hidden_sizes configuration: genesis= [680, 260, 65, 30], use_cache=False; modulator=[128, 32, 16], use_cache=False
+
+w1 = the first configuration of weights_restart: A = [0.125, 0.7]; B = [0.9, 0.2]
+w2 = the second configuration of weights_restart: A = [0.175, 0.65]; B = [0.9, 0.2]
