@@ -10,3 +10,6 @@ To run the code, the following steps are required:
 * Download the 12 npy files from the dataset and store them in the directory `nif-master/experiments/images`
 * Move the `my_job.sh` and `my_job3d.sh` files one directory up, such that it is contained in the same location as the `nif-master` directory.
 * Run the `my_job.sh` file if you want to run the experiments on the images in their full 13-dimensional form. If you want to run the experiments on the rgb channels of the images only, run `my_job3d.sh`
+
+### COIN++
+[COIN++](https://github.com/EmilienDupont/coinpp)
